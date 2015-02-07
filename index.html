@@ -83,7 +83,7 @@ subtract
 <input type="button" value="equals" id="subButton">
 <span id="subResult"></span>
 <script>
-  document.getElementById('subButton').onclick = function(){
+document.getElementById('subButton').onclick = function(){
   // Get numbers from the two boxes.
   sub1 = Number(document.getElementById('subBox1').value)
   sub2 = Number(document.getElementById('subBox2').value)
@@ -91,7 +91,8 @@ subtract
   result = sub1 + sub2
   // Show the result.
   document.getElementById('subResult').textContent = result
-</script>  
+}
+</script>
 
 <h2>Subtraction (Make this one by copying the subtraction code)</h2>
 Select and Copy the subtion code (ctrl+c) and paste it here (ctrl+v).
